@@ -4,19 +4,13 @@ using UnityEngine;
 
 public class Minimap : MonoBehaviour
 {
-    public GameObject player;
-    private GameObject minMapView;
-    
-    
-    void Start()
-    {
-        minMapView = GameObject.Find("MinimapCamera");
-    }
+    public Transform player;
 
-
-    // Update is called once per frame
-    void Update()
+    private void LateUpdate()
     {
-        minMapView.transform.position = new Vector3(player.transform.position.x, minMapView.transform.position.y, player.transform.position.z);
+        Vector3 newPosition = player.position;
+        newPosition.y = transform.position.y;
+        transform.position = newPosition;
+        transform.rotation = Quaternion.Euler(90f, player.eulerAngles.y, 0f);
     }
 }

@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{841DBEC4-1CB5-1AF6-23BF-0E1A5EA36C2E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game Assets/Scripts/Minimap.cs">
+    <Files>
+      <File FileName="Assets/Game Assets/Scripts/Minimap.cs" Line="8" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Unidad 2 Scripting" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Game Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Command" expanded="True" />
+                  <Node name="Minimap.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="304a7496-dbdb-49fb-94e1-ed72dd280d4f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
